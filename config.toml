@@ -50,6 +50,10 @@ resize_pane_down = "prefix+shift+j"
 resize_pane_up = "prefix+shift+k"
 resize_pane_right = "prefix+shift+l"
 
+# Workspace
+next_workspace = "prefix+shift+h"
+previous_workspace = "prefix+shift+l"
+
 [[keys.command]]
 key = "prefix+alt+g"
 type = "popup"
@@ -83,7 +87,6 @@ enabled = true
 
 [session]
 resume_agents_on_restore = true
-manage_ssh_config = true
 
 [experimental]
 allow_nested = false
