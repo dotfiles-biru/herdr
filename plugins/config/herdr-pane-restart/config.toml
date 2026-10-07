@@ -1,0 +1,18 @@
+[[panes]]
+label = "pi"
+command = "pi-ui"
+
+[[panes]]
+label = "nvim"
+# Replace the pane shell with nvim so Herdr owns the editor process directly.
+# This ensures server shutdown hangs up the nvim process with this pane only.
+command = "exec nvim"
+
+[[panes]]
+label = "lazygit"
+command = "lzg"
+
+[[panes]]
+label = "hunk"
+command = "hd"
+
